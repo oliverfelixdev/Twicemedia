@@ -1,0 +1,34 @@
+:root {
+  --text-primary: #f1f1f1;
+  --text-secondary: #c0cac9;
+  --text-contrast: #606f6f;
+
+  --bg-primary: #001514;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "FC-Bold";
+}
+
+/* header{} */
+
+.navbar {
+  width: 100%;
+  background-color: red;
+  position: relative;
+  padding: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-link{
+    
+}
