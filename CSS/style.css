@@ -17,18 +17,36 @@
 
 .navbar {
   width: 100%;
-  background-color: red;
+  background-color: var(--bg-primary);
   position: relative;
   padding: 1rem;
 }
 
-.navbar ul {
+.navigation {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  list-style-type: none;
 }
 
-.nav-link{
-    
+.link {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+}
+
+.link .link-text + .link-text {
+  pointer-events: none;
+  left: 0;
+  top: 0;
+}
+
+.link-text {
+  position: relative;
+  font-size: 1.4rem;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1;
 }
